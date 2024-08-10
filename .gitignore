@@ -1,0 +1,5 @@
+.env
+__init__.py
+.cache
+pipreqs.exe
+__pycache__
