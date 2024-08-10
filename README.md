@@ -4,8 +4,8 @@ Esse é um projeto back-end para procurar informações sobre exercícios físic
 
 ### Instalação
 ```
-git clone https://github.com/yourusername/your-repo-name.git
-cd repo
+git clone https://github.com/Teti-9/flaskmongodb-muscleinfo-web.git
+cd flaskmongodb-muscleinfo-web
 ```
 ```
 pip install -r requirements.txt
@@ -33,9 +33,11 @@ python main.py
     "dicas": "Dicas no geral, exemplo: execução."
 }
 ```
+```
 - Procurar por grupo muscular
     - Endpoint: /<musculo>
     - Method: GET
+```
 ```
 - Editar info exercício
     - Endpoint: /editar
@@ -45,6 +47,7 @@ python main.py
     "nome": "Nome do exercício.",
     "info": "Informações extras ou atualizadas sobre o exercício.",
 }
+```
 ```
 - Deletar exercício
     - Endpoint: /deletar
